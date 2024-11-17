@@ -80,6 +80,7 @@ main {
 }
 #section{
     width: 1100px;
+    
     margin:0 auto;
     background-color: #20236A;
 
@@ -88,7 +89,7 @@ main {
 display: flex;
 justify-content: space-between;
 padding: 0 20px;
-padding: 20px 0;
+padding: 20px 30px;
 
 }
 .section-aria-1 h3{
@@ -107,6 +108,32 @@ padding: 20px 0;
     margin: o 10px;
     color:rgb(22, 173, 173);
     cursor: pointer;
+}
+.single-items-parent{
+    width: 1100px;
+    margin:0 auto;
+    background-color: #20236A;
+
+}
+.single-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.single-2 img{
+    width: 230px;
+    height: 200px;
+    box-shadow: 3px 4px #20236A ;
+}
+.single-1 {
+    display: flex;
+    justify-content:space-between;
+    
+    width: 230px;
+    height: 100px;
+}
+.single-1 p {
+    color: #fff;
 }
 
 
