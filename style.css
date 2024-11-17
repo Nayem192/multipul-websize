@@ -73,5 +73,40 @@ font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
 }
+main {
+    background-color: #20236A;
+  padding-top: 20px;
+   
+}
+#section{
+    width: 1100px;
+    margin:0 auto;
+    background-color: #20236A;
+
+}
+.section-aria-1{
+display: flex;
+justify-content: space-between;
+padding: 0 20px;
+padding: 20px 0;
+
+}
+.section-aria-1 h3{
+    font-size: 20px;
+
+    color:teal;
+}
+.section-aria-1 h4 {
+    font-size: 20px;
+    color: teal;
+}
+.section-aria-1 h4 span{
+    font-size: 20px;
+    background-color: aliceblue;
+    padding: 3px;
+    margin: o 10px;
+    color:rgb(22, 173, 173);
+    cursor: pointer;
+}
 
 
