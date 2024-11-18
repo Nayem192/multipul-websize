@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+
+/* navbav add */
+
+nav h2{
+    color:#fff;
+    font-size: 25px;
+    }
+    nav h2 span {
+        font-size: 40px;
+    }
+    nav{
+     display: flex;
+     justify-content:space-around;
+     align-items: center;
+     justify-items: center;
+     background-color: black;
+     position: sticky;
+     top: 0;
+    }
+    nav > ul{
+        display: flex;
+        margin: 0;
+        justify-content:center ;
+    
+        align-items: center;
+    }
+    nav > ul > li{
+        list-style: none;
+        margin: 0 10px;
+        padding: 15px;
+    }
+    nav > ul > li > a {
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px;
+       
+        color:#fff;
+    
+    }
+    nav > ul > li > a:hover {
+       background-color: black;
+       
+        color:red;
+    
+    }
+/* navbav add */
+.box {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 800px;
+    border: 2px solid red;
+    background-color: wheat;
+    box-shadow: 3px 5px red red;
+
+}
+.abute-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.abute-text-div  h2{
+font-size: 80px;
+color:red;
+}
+.abute-text-div p {
+    font-size: 30px;
+    color:red;
+}
+.abute-text-div a {
+    font-size: 20px;
+    display:inline-block;
+    background-color: aqua;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:#fff;
+    text-decoration: none;
+
+}
